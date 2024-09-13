@@ -1,13 +1,13 @@
 
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="pt-br" data-bs-theme="auto">
   <head><script src="./js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="icon" href="img/perfil.jpeg">
-    <title>Portfólio - Gleison Fernandes da Silva</title>
+    <title aria-label="Portfólio de Gleison Fernandes da Silva">Portfólio - Gleison Fernandes da Silva</title>
     
 
 <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -162,6 +162,9 @@
         <li class="nav-item">
           <a class="nav-link active" href="#desenvolve">Desenvolve 2023</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#formacao">Programa de Formação</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -170,10 +173,10 @@
 <main class="container">
   <div class="row">
     <div class="col-lg-12">
-      <div class="card mb-4 shadow-sm cardPadding">
+      <div class="card mb-4 shadow-sm cardPadding" aria-label="Saiba um pouco sobre  Gleison">
         <div class="imgCard">
-            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/perfil.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><!--<title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
-            <h1 class="text-gradient">Gleison Fernandes da Silva</h1>
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/perfil.jpeg" alt="Foto de perfil do Gleison" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Foto de perfil do Gleison"><!--<title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+            <h1 class="text-gradient" aria-label="Gleison Fernandes da Silva">Gleison Fernandes da Silva</h1>
         </div>
         <p class="lead">Sou Bacharel em Sistemas de Informação pela Universidade do Estado da Bahia 
             (UNEB - Campus II - Alagoinhas). Tenho experiência no desenvolvimento e manutenção de sistemas 
@@ -181,11 +184,11 @@
             a criação do front-end. No que diz respeito ao back-end, trabalho com PHP e banco de dados MySQL.
         </p>
         <p class="linkPerfil">
-          <a class="btn btn-primary" href="https://github.com/gleisonfernandes" target='_blank'>
+          <a class="btn btn-primary" href="https://github.com/gleisonfernandes" target='_blank' aria-label="Perfil do Github de Gleison">
             <img src="img/github.svg" width="30px">
           </a>
           <a class="btn btn-primary" href="https://www.linkedin.com/in/gleison-fernandes-da-silva-54b907105/"
-          target="_blank">
+          target="_blank" aria-label="Perfil do Linkedin de Gleison">
             <img src="img/linkedin-white.svg" width="29px">
           </a>
         </p>
@@ -193,7 +196,7 @@
     </div>
   </div>
 
-  <section id="portfolio">
+  <section id="portfolio" aria-label="Sessão de Portfólio">
     </br>
     <hr class="featurette-divider">
     <div class="jumbotron text-center">
@@ -212,10 +215,10 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img  src="img/sos1.png" class="d-block w-100 imgborder" alt="Slider 0">
+                            <img  src="img/sos1.png" class="d-block w-100 imgborder" alt="Primeira imagem do slide SOS Para elas Alagoinhas">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/sos2.png" class="d-block w-100 imgborder" alt="Slider 1">
+                            <img src="img/sos2.png" class="d-block w-100 imgborder" alt="Segunda imagem do do slide SOS Para elas Alagoinhas">
                         </div>
                     </div>
                 </div>
@@ -494,6 +497,61 @@
 
 </div>
 </section>
+
+<section id="formacao">
+</br>
+<hr class="featurette-divider">
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="text-gradient">Programa de Formação</h1>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card mb-4 shadow-sm">
+        <div id="meuSlides9" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meuSlides9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#meuSlides9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#meuSlides9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#meuSlides9" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#meuSlides9" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img  src="img/orangex1.png" class="d-block w-100 imgborder" alt="Slider 0">
+                </div>
+                <div class="carousel-item">
+                <img src="img/orangex2.png" class="d-block w-100 imgborder" alt="Slider 1">
+                </div>
+                <div class="carousel-item">
+                <img src="img/orangex3.png" class='d-block w-100 imgborder' alt="Slider 2">
+                </div>
+                <div class="carousel-item">
+                <img src="img/orangex4.png" class="d-block w-100 imgborder" alt="Slider 3">
+                </div>
+                <div class="carousel-item">
+                <img src="img/orangex5.png" class='d-block w-100 imgborder' alt="Slider 4">
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">OrangeX</h5>
+            <p class="card-text">O OrangeX é baseado no X (Twitter), a ideia é simplificar um pouco a rede social e focar nas funcionalidades principais da plataforma.</p>
+            <h6 class="card-title">Tecnologia de Desenvolvimento</h6>
+            <p class="card-text">HTML, CSS, TypeScript, React, Styled Components, React Router, Axios, Java, Spring Boot e PostgreSQL.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <p>
+                    <a class="btn btn-primary" href="https://www.figma.com/design/vP5sEu5Dil7UzWVZLwlzrV/Twitter-desktop-pages-(feed%2C-sigup%2C-login%2C-profile)-(Community)-(Copy)?node-id=0-1&t=jgBDeuGhhi50Xt3W-0" target='_blank'>Figma &raquo;</a>
+                    <a class="btn btn-primary" href="https://github.com/gleisonfernandes/desafio01-orange-branch" target='_blank'>Github &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
 </main>
 <footer class="footer">
     <div class="container">
@@ -536,10 +594,20 @@
   </footer>
 
 
-
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    
 
       
   </body>
